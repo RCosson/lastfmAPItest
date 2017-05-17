@@ -1,0 +1,44 @@
+@font-face {
+  font-family:'Source';
+  src:url('SourceSansPro-Light.otf');
+}
+
+* {
+  font-family: 'Source';
+}
+
+body {
+  /*background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);*/
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+#wrapper {
+  width: 800px;
+  overflow: auto;
+  padding: 20px;
+  border-radius: 3px 0 3px 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  line-height: 35px;
+}
+
+#title {
+  font-weight: bold;
+  text-shadow: 1px 1px 1px solid black;
+}
+
+#wrapper, #imgContainer {
+  height: 260px;
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
